@@ -9,7 +9,7 @@ Ingrese 5 nombres: ["Pedro", "Ana", "Luis", "Carlos", "Sofía"]
 def ordenador_nombres(): #Se crea la función
     contador=0
     array=[]   #inicializamos un contador y una lista
-    while contador<5: #while que nos asegura que pidan 5 números como lo pedido en el ejercicio
+    while contador<5: #while que nos asegura que pidan 5 nombres como lo pedido en el ejercicio
         
         nombres=input("Ingrese el nombre ")
         contador+=1
