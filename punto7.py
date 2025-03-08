@@ -13,21 +13,21 @@ Ingrese la calificación 3: 90
 
 Hacerlo en Python"""
 
-def agregar_estudiante():
+def agregar_estudiante(): #Creamos la función
     contador=1
-    acumulador=0
+    acumulador=0   #Inicializamos un contador y acumulador
     while contador<6:
         try:
-            calificacion = float(input(f"Ingrese la calificacion {contador}: "))
+            calificacion = float(input(f"Ingrese la calificacion {contador}: ")) #Creamos el input pero con el detalle de agregarle el contador 
             
-            if calificacion <0 or calificacion>100:
+            if calificacion <0 or calificacion>100:   #Se crea condición para rango de números como algo obligatorio en la entrada
                print("Calificacion invalida. Debe ser entre 0 y 100")
                
             else:
-                acumulador+=calificacion
+                acumulador+=calificacion  ~#Acumulamos, sumamos las calificaciones y el contador al tiempo sumando el número de operaciones 
                 contador+=1  
         except ValueError:
-            print("Entrada invalida. Debe de ingresar un numero")
-    print(f"📊 Promedio final: {acumulador/contador}")
+            print("Entrada invalida. Debe de ingresar un numero") #entrada invalida
+    print(f"📊 Promedio final: {acumulador/contador}") #imprimimos el acumulador/contador para sacar el promedio final
         
 agregar_estudiante()      
