@@ -10,7 +10,7 @@ let resto  // Se declara variable resto para el calculo.
 let suma = 0, i=1  // Se declara variable para sumar los valores y se empieza el ciclo desde el 1.
 
 if(isNaN(numero)|| numero==="" || numero <=0){  // Se valida numero que si sea un numero, que no este vacio y que sea mayor que 0.
-    console.log("Entrada invalida. Verifique que sea un numero positivo o que el valor no quede vacio.")  // Se imprime alerta alguna de las condiciones se cumple.
+    console.log(" ⚠️ Entrada invalida. Verifique que sea un numero positivo o que el valor no quede vacio.")  // Se imprime alerta alguna de las condiciones se cumple.
     return; 
 }   
 
